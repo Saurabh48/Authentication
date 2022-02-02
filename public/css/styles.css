@@ -1,11 +1,10 @@
-
 body {
   background-color: #E8ECEF;
 }
 
 .centered {
-    padding-top: 200px;
-    text-align: center;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .secret-text {
@@ -15,13 +14,22 @@ body {
   background-color: #000;
 }
 
-.col-sm-8
-{
+.col-sm-8 {
   margin: auto;
 }
 
-p
-{
+div+p {
   text-align: center;
   color: red;
+}
+
+.ac {
+  display: inline;
+  margin: 25px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #bfcbd6;
+  color: #fff;
+  font-size: 25px;
+  border-width: 0;
 }
